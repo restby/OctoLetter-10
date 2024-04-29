@@ -2,8 +2,8 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- <meta name="color-scheme" content="light dark" />
-  <meta name="supported-color-schemes" content="light dark" /> -->
+  <meta name="color-scheme" content="light dark" />
+  <meta name="supported-color-schemes" content="light dark" />
   <title>Octo Browser</title>
   <style type="text/css">
     /* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap'); */
@@ -45,6 +45,18 @@
         padding-right: 16px !important;
       }
 
+      .partners.tablet-padding,
+      .offers.tablet-padding {
+        padding-left: 4px !important;
+        padding-right: 4px !important;
+      }
+
+      .partners img,
+      .offers img {
+        width: 100% !important;
+        max-width: 100% !important;
+      }
+
       .column--logo {
         max-width: 173px !important;
       }
@@ -64,6 +76,11 @@
         line-height: 17px !important;
       }
 
+      .partners .two-cols .column,
+      .offers .two-cols .column {
+        max-width: 50% !important;
+      }
+
       .social__wrap p {
         text-align: center;
       }
@@ -74,10 +91,31 @@
         padding-left: 32px !important;
         padding-right: 32px !important;
       }
+
+      .partners .two-cols .column,
+      .offers .two-cols .column {
+        max-width: 100% !important;
+      }
+
+      .partners.mobile-padding,
+      .offers.mobile-padding {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+      }
+      .partners.mobile-padding {
+        padding-bottom: 0 !important;
+      }
+      .offers.mobile-padding {
+        padding-bottom: 0 !important;
+      }
+      .partners__item,
+      .offers__item {
+        padding-bottom: 24px !important;
+      }
     }
 
     /* Custom Dark Mode Colors */
-    /* :root {
+    :root {
       color-scheme: light dark;
       supported-color-schemes: light dark;
     }
@@ -110,6 +148,13 @@
       .social__wrap a span {
         color: #1890ff !important;
       }
+      .partners h2,
+      .partners p,
+      .offers h2,
+      .offers h3,
+      .offers p {
+        color: #ffffff !important;
+      }
 
       .social__wrap p {
         color: #ffffff !important;
@@ -123,7 +168,7 @@
       .footer__wrap span {
         color: #ffffff !important;
       }
-    } */
+    }
   </style>
 
   <!--[if (gte mso 9)|(IE)]>
